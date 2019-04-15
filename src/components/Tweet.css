@@ -1,0 +1,44 @@
+.middle {
+  display: inline-block;
+  position: absolute;
+  padding: 0 10px 5px;
+}
+.left {
+}
+.right{
+    padding: 5px 5px 0 0;
+    width: 10px;
+    height: 8px;
+    position: relative;
+    float: right;
+}
+.name {
+  padding: 5px 0 4px;
+  margin: 0;
+  font-weight: 500;
+}
+.username {
+  padding: 0;
+  margin: 0;
+  color: #898d90;
+}
+.verified {
+  width: 12px;
+  height: 12px;
+}
+
+.certifiedlogo {
+  margin: 0 8px 0;
+  display: -webkit-inline-box;
+}
+.nameDiv {
+  display: inline-block;
+}
+
+.message {
+  padding: 8px 10px 2px;
+  background-color: #898d90;
+  height: auto;
+  width: auto;
+  /* white-space: pre; */
+}

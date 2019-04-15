@@ -1,0 +1,35 @@
+react hooks
+pure component
+react memo
+react lazy
+SSr (next.js)/ pre rendering
+render props
+
+
+bundle
+main
+chunk
+
+
+=> In case of obj have function than this refers to object.
+ex.=> var age=23;
+var obj={age:22,getAge:function(){
+console.log(this.age);
+}}
+obj.getAge();
+
+ans--22
+
+=> Not in case of arrow function
+ex.=> var age=23;
+var obj={age:22,getAge:()=>{
+console.log(this.age);
+}}
+obj.getAge();
+
+ans--undefined
+
+fat arrow function
+or 
+lambda arrow function
+
