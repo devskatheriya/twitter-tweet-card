@@ -37,8 +37,13 @@
 
 .message {
   padding: 8px 10px 2px;
-  background-color: #898d90;
+  
   height: auto;
   width: auto;
   /* white-space: pre; */
+}
+.date-time{
+    padding: 5px 10px 5px;
+    color: #898d90;
+    background-color: #c8ced3;
 }
